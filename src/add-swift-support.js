@@ -169,9 +169,9 @@ const getConfigParser = (context, configPath) => {
   let ConfigParser;
 
   if (semver.lt(context.opts.cordova.version, '5.4.0')) {
-    ConfigParser = context.require('cordova-lib/src/ConfigParser/ConfigParser');
+    ConfigParser = require('cordova-lib/src/ConfigParser/ConfigParser');
   } else {
-    ConfigParser = context.require('cordova-common/src/ConfigParser/ConfigParser');
+    ConfigParser = require('cordova-common/src/ConfigParser/ConfigParser');
   }
 
   return new ConfigParser(configPath);
@@ -189,7 +189,7 @@ const getBridgingHeaderPath = (projectPath, iosPlatformVersion) => {
 };
 
 const getPlatformVersionsFromFileSystem = (context, projectRoot) => {
-  const cordovaUtil = context.require('cordova-lib/src/cordova/util');
+  const cordovaUtil = require('cordova-lib/src/cordova/util');
   const platformsOnFs = cordovaUtil.listPlatforms(projectRoot);
   const platformVersions = platformsOnFs.map(platform => {
     const script = path.join(projectRoot, 'platforms', platform, 'cordova', 'version');
