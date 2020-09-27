@@ -1,48 +1,5 @@
 # Change Log
 
-## [2.0.2](https://github.com/akofman/cordova-plugin-add-swift-support/tree/2.0.2) (2019-04-05)
-[Full Changelog](https://github.com/akofman/cordova-plugin-add-swift-support/compare/2.0.1...2.0.2)
-
-**Merged pull requests:**
-
-- Script needs to be quoted [\#59](https://github.com/akofman/cordova-plugin-add-swift-support/pull/59) ([shivan](https://github.com/shivan))
-
-## [2.0.1](https://github.com/akofman/cordova-plugin-add-swift-support/tree/2.0.1) (2019-04-01)
-[Full Changelog](https://github.com/akofman/cordova-plugin-add-swift-support/compare/2.0.0...2.0.1)
-
-**Closed issues:**
-
-- add-swift-support.js of v2.0 is missing on npm [\#58](https://github.com/akofman/cordova-plugin-add-swift-support/issues/58)
-- Support cordova-cli 9.0.0 - requireCordovaModule deprecation [\#56](https://github.com/akofman/cordova-plugin-add-swift-support/issues/56)
-- Swift 4 support [\#55](https://github.com/akofman/cordova-plugin-add-swift-support/issues/55)
-- Swift 4 is failing with latest cordova [\#50](https://github.com/akofman/cordova-plugin-add-swift-support/issues/50)
-
-## [2.0.0](https://github.com/akofman/cordova-plugin-add-swift-support/tree/2.0.0) (2019-04-01)
-[Full Changelog](https://github.com/akofman/cordova-plugin-add-swift-support/compare/1.7.2...2.0.0)
-
-**Merged pull requests:**
-
-- refactor: update tooling, add support for Cordova v9 [\#57](https://github.com/akofman/cordova-plugin-add-swift-support/pull/57) ([timbru31](https://github.com/timbru31))
-- Document where to specify Swift version preference [\#53](https://github.com/akofman/cordova-plugin-add-swift-support/pull/53) ([eladnava](https://github.com/eladnava))
-
-## [1.7.2](https://github.com/akofman/cordova-plugin-add-swift-support/tree/1.7.2) (2018-03-30)
-[Full Changelog](https://github.com/akofman/cordova-plugin-add-swift-support/compare/1.7.1...1.7.2)
-
-**Closed issues:**
-
-- Implement catching promise rejections [\#51](https://github.com/akofman/cordova-plugin-add-swift-support/issues/51)
-- \*-Briding-Header.h not used [\#48](https://github.com/akofman/cordova-plugin-add-swift-support/issues/48)
-- SWIFT\_VERSION build setting not being applied @1.7.1 [\#47](https://github.com/akofman/cordova-plugin-add-swift-support/issues/47)
-- Unhandled promise rejection \(rejection id: 1\): Error: Cannot find module '../cordova/platform\_metadata' [\#44](https://github.com/akofman/cordova-plugin-add-swift-support/issues/44)
-- Can not restore this plugin when using cordova-cli@8.0.0  [\#43](https://github.com/akofman/cordova-plugin-add-swift-support/issues/43)
-- Hook won't trigger [\#40](https://github.com/akofman/cordova-plugin-add-swift-support/issues/40)
-- Error adding cordova-plugin-add-swift-support [\#39](https://github.com/akofman/cordova-plugin-add-swift-support/issues/39)
-- OSX support [\#19](https://github.com/akofman/cordova-plugin-add-swift-support/issues/19)
-
-**Merged pull requests:**
-
-- Fix for cordova projects located in paths with spaces [\#52](https://github.com/akofman/cordova-plugin-add-swift-support/pull/52) ([TheLiquidSky](https://github.com/TheLiquidSky))
-
 ## [1.7.1](https://github.com/akofman/cordova-plugin-add-swift-support/tree/1.7.1) (2017-12-22)
 [Full Changelog](https://github.com/akofman/cordova-plugin-add-swift-support/compare/1.7.0...1.7.1)
 
@@ -51,6 +8,11 @@
 - SWIFT\_VERSION build setting not being applied [\#42](https://github.com/akofman/cordova-plugin-add-swift-support/issues/42)
 - Node.JS 8.X Support [\#38](https://github.com/akofman/cordova-plugin-add-swift-support/issues/38)
 - Missing tag and changelog for 1.7.0 [\#33](https://github.com/akofman/cordova-plugin-add-swift-support/issues/33)
+- Unhandled promise rejection \(rejection id: 1\): Error: Cannot find module '../cordova/platform\_metadata' [\#44](https://github.com/akofman/cordova-plugin-add-swift-support/issues/44)
+- Can not restore this plugin when using cordova-cli@8.0.0  [\#43](https://github.com/akofman/cordova-plugin-add-swift-support/issues/43)
+- Hook won't trigger [\#40](https://github.com/akofman/cordova-plugin-add-swift-support/issues/40)
+- Error adding cordova-plugin-add-swift-support [\#39](https://github.com/akofman/cordova-plugin-add-swift-support/issues/39)
+- OSX support [\#19](https://github.com/akofman/cordova-plugin-add-swift-support/issues/19)
 
 **Merged pull requests:**
 
