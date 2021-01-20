@@ -149,6 +149,10 @@ module.exports = context => {
                 console.log('Update SWIFT version to 4.0', buildConfig.name);
               }
             }
+            
+            // FIX FORCE SWIFT_VERSION
+            const swiftVersion = config.getPreference('UseSwiftLanguageVersion', 'ios');
+            xcodeProject.updateBuildProperty('SWIFT_VERSION', swiftVersion, buildConfig.name);
 
             if (buildConfig.name === 'Debug') {
               if (xcodeProject.getBuildProperty('SWIFT_OPTIMIZATION_LEVEL', buildConfig.name) !== '"-Onone"') {
